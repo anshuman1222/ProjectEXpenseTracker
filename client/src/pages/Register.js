@@ -50,7 +50,7 @@ const Register = () => {
         if (isMember) {
             
             
-            const loginres = await fetch("http://localhost:3000/api/signin-user", {
+            const loginres = await fetch("https://project-e-xpense-tracker.vercel.app/api/signin-user", {
                 method: "POST", headers: { "Content-type": "application/json" }, body: JSON.stringify({
 
                     email: email,
@@ -73,7 +73,7 @@ const Register = () => {
 
         else {
            
-            const res = await fetch("http://localhost:3000/api/register-user", {
+            const res = await fetch("https://project-e-xpense-tracker.vercel.app/api/register-user", {
                 method: "POST", headers: { "Content-type": "application/json" }, body: JSON.stringify({
                     name: name,
                     email: email,

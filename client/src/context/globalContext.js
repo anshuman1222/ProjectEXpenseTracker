@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react"
 import axios from 'axios'
 import { toast } from 'react-toastify';
 
-const BASE_URL = "http://localhost:3000/api/";
+const BASE_URL = "https://project-e-xpense-tracker.vercel.app/api/";
 
 const GlobalContext = React.createContext()
 
